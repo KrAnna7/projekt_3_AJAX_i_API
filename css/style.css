@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700');
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0px, auto;
+	text-align: center;
+}
+
+h1, h2 {
+	color: #990033;
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	line-height: 15vh;
+}
+
+.kraj {
+	color: #0a0bea;
+	font-weight: bolder;
+	font-size: 32px;
+	font-family: 'Libre Baskerville', serif;
+	/* Wcześniej do .kraj dałam opcję text-transform: uppercase, ale później ją usunęłam. Mimo wszystko to nadal działało przez jakieś 20 min, dlaczego? */ 
+}
+
+.flag {
+	width: 100px; /*tutaj chciałabym ją umieścić w jednym rzędzie z nazwą kraju, ale coś mi nie wychodzi*/
+}
+
+li {
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+	list-style: none;
+	width: 80%;
+	margin: 40px, auto;
+}
+
+p {
+	color: white;
+	background-color: #000081;
+	font-size: 18px;
+	width: 80%;
+}
+
+table {
+	width: 80%;
+	border: 2px solid;
+	color: #000081;
+}
+
+th {
+	background-color: #ffcc00;
+	padding: 3px;
+	border: 2px solid #aaaa9e;
+	width: 200px;
+}
+
+td {
+	background-color: #fefd9f;
+	font-weight: bold;
+	padding-left: 8px;
+	border: 2px solid #aaaa9e;
+}
